@@ -386,16 +386,50 @@ public class TestCompile {
 Попробуйте решить задачу без использования `if` и циклов, даже если вы с ними уже знакомы.*
 
 ```java
+import java.util.Scanner;
 
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int seconds = scanner.nextInt();
+
+        int hours = (seconds / 3600) % 24;
+        int minutes = (seconds % 3600) / 60;
+        int remainingSeconds = (seconds % 3600) % 60;
+
+        String time = String.format("%d:%02d:%02d", hours, minutes, remainingSeconds);
+        System.out.println(time);
+    }
+}
 ```
 
-## 3  Условия и циклы
+## 3. Условия и циклы
 
 ### 3.1 Понятие блока кода
 
 ❓**
 ❓**
 ❓**
+
+### 3.2 Оператор условного перехода
+
+❓**
+❓**
+❓**
+
+### 3.3 Оператор выбора
+
+❓**
+❓**
+
+### 3.4 Циклы
+
+❓**
+❓**
+❓**
+
+### 3.5 Практика
+
 ❓**
 ❓**
 ❓**
@@ -404,14 +438,11 @@ public class TestCompile {
 ❓**
 ❓**
 ❓**
-❓**
-❓**
-❓**
-❓**
-❓**
-❓**
-❓**
-❓**
+
+## 4. Массивы
+
+### 4.1 Что такое массив
+
 ❓**
 ❓**
 ❓**
