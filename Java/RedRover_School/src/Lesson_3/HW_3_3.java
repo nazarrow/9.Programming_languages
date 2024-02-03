@@ -9,7 +9,7 @@ package Lesson_3;
 
 public class HW_3_3 {
     public static void main(String[] args) {
-        int i = 45;
+        int i = 41;
 
         if (i > 10) {
             System.out.println("a > 10");
@@ -17,11 +17,11 @@ public class HW_3_3 {
         if (i < 100) {
             System.out.println("i < 100");
         }
-        if (i / 2 > 20) {
+        if (i * 1.0 / 2 > 20) {
             System.out.println("i / 2 > 20");
         }
-        if (i > 5 && i <= 40) {
-            System.out.println("i > 5 && i <= 40");
+        if (i >= 5 && i <= 40) {
+            System.out.println("i >= 5 && i <= 40");
         } else if (i < 5 || i > 40) {
             System.out.println("i < 5 || i > 40");
         }

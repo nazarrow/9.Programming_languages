@@ -8,11 +8,10 @@ public class HW_3_2 {
     public static void main(String[] args) {
         int a = 1012;
         int b = 333;
-        boolean isEven = (a + b) % 2 == 0;
 
-        if (isEven) {
+        if ((a + b) % 2 == 0) {
             System.out.println("maybe a and b are even");
-        } else if (!isEven) {
+        } else {
             System.out.println("some variable is odd");
         }
     }
