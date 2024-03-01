@@ -10,20 +10,16 @@ Notes:
 
 There's no need to check for negative values!
 initialise the side to 0.*/
-public class CW_playing_with_cubes_I {
+public class Cube {
+    int Side;
 
-    public class Cube {
-        int Side;
-
-        public int getSide() {
-            return Side;
-        }
-
-        public void setSide(int num) {
-            Side = num;
-        }
+    public int getSide() {
+        return Side;
     }
 
+    public void setSide(int num) {
+        Side = num;
+    }
 }
 
 //Sample Tests
